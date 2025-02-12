@@ -75,7 +75,7 @@ const Contact = () => {
                 <FaInstagram size={30} />
               </a>
               <a
-                href="https://www.twitter.com"
+                href="https://x.com/AllDeepakThing"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: 'none', color: 'inherit', curdor: 'pointer'}}
