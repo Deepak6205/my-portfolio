@@ -4,7 +4,7 @@ import mail_icon from "../../assets/mail_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
 import { ToastContainer, toast } from "react-toastify";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin,FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
@@ -90,7 +90,16 @@ const Contact = () => {
               >
                 <FaLinkedin size={30} />
               </a>
+              <a
+                href="https://github.com/Deepak6205"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: 'none', color: 'inherit', curdor: 'pointer'}}
+              >
+                <FaGithub size={30} />
+              </a>
             </div>
+            
           </div>
         </div>
         <form className="contact-right" onSubmit={onSubmit}>
