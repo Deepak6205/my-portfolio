@@ -5,7 +5,7 @@ const Footer = () => {
     <div id='footer' className='footer'>
         <div className="footer-top">
             <div className="footer-top-left">
-                <h1>DeEP<span>aK.</span></h1>
+                <h1>Deep<span>aK.</span></h1>
                 <p>i'm a Enthusiastic software developer from India, crafting innovative solutions with curiosity and creativity.</p>
             </div>
             <div className="footer-top-right">
@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="footer-bottom">
-            <p className="footer-bottom-left">© 2024 Deepak Kumar. All rights reserved.</p>
+            <p className="footer-bottom-left">© 2026 Deepak Kumar. All rights reserved.</p>
             <div className="footer-bottom-right">
                 <p>Term of Services</p>
                 <p>Privacy Policy</p>

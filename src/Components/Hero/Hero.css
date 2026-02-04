@@ -6,7 +6,12 @@
 }
 .hero img{
     margin-top: 150px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
 }
+
 .hero h1{
     text-align: center;
     width: 70%;
@@ -55,7 +60,9 @@
 @media (max-width:768px) {
     .hero img{
         margin-top: 120px;
-        width: 260px;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
     }
     .hero h1{
         margin-top: 50px;

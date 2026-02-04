@@ -111,7 +111,7 @@ const Contact = () => {
           <textarea
             name="message"
             rows="8"
-            placeholder="Enter your message"
+            placeholder="Enter your message with contact number"
           ></textarea>
           <button className="contact-submit" type="submit">
             Submit now

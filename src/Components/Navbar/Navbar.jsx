@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className='navbar'>
         {/* <img src={logo} alt="logo"/> */}
         <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open'/>
-        <h1>DeEP<span>aK.</span></h1>
+        <h1>Deep<span>aK.</span></h1>
         <ul ref={menuRef} className="nav-menu">
           <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
             <li><AnchorLink className='anchor-link'  href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu === "home" ? <img src={underline} alt=''/> : <></>}</li>
