@@ -1,6 +1,6 @@
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import profile_img2 from "../../assets/profile_img2.jpg";
+import side_profile from "../../assets/side_profile.png";
 const About = () => {
   return (
     <div id="about" className="about">
@@ -10,7 +10,7 @@ const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src={profile_img2} alt="aboutprofile" />
+          <img src={side_profile} alt="aboutprofile" />
         </div>
         <div className="about-right">
           <div className="about-para">

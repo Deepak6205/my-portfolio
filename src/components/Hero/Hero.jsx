@@ -1,5 +1,5 @@
 import "./Hero.css";
-import profile_img3 from "../../assets/profile_img3.jpg";
+import side_profile from "../../assets/side_profile.png";
 
 
 const Hero = () => {
@@ -12,7 +12,7 @@ const Hero = () => {
 
   return (
     <div id="home" className="hero">
-      <img src={profile_img3} alt="profile" />
+      <img src={side_profile} alt="profile" />
       <h1>
         <span>I'm Deepak,</span> software developer based in India.
       </h1>
