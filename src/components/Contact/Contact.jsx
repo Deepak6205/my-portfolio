@@ -28,6 +28,7 @@ const Contact = () => {
 
     if (res.success) {
       toast(res.message);
+      event.target.reset();
     }
   };
   return (
@@ -104,14 +105,15 @@ const Contact = () => {
         </div>
         <form className="contact-right" onSubmit={onSubmit}>
           <label htmlFor="">Your Name</label>
-          <input type="text" placeholder="Enter your name" name="name" />
+          <input type="text" placeholder="Enter your name" name="name" required/>
           <label htmlFor="">Your Email</label>
-          <input type="text" name="email" placeholder="Enter your email" />
+          <input type="email" name="email" placeholder="Enter your email" required />
           <label htmlFor="">Write your message here</label>
           <textarea
             name="message"
             rows="8"
             placeholder="Enter your message with contact number"
+            required
           ></textarea>
           <button className="contact-submit" type="submit">
             Submit now
