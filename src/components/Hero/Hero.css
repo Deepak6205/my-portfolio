@@ -3,6 +3,7 @@
     align-items: center;
     flex-direction: column;
     gap: 35px;
+    padding: 0 20px;
 }
 .hero img{
     margin-top: 150px;
@@ -10,6 +11,7 @@
     height: 250px;
     object-fit: cover;
     border-radius: 50%;
+    flex-shrink: 0;
 }
 
 .hero h1{
@@ -17,6 +19,7 @@
     width: 70%;
     font-size: 90px;
     font-weight: 600;
+    line-height: 1.1;
 }
 .hero h1 span{
     background: linear-gradient(264deg, #DF8908 0.26%, #B415FF 102.6%);
@@ -32,7 +35,9 @@
 }
 .hero-action{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 25px;
     font-size: 24px;
     font-weight: 500;
@@ -43,50 +48,129 @@
     border-radius: 50px;
     background: linear-gradient(264deg, #DF8908 0.26%, #B415FF 102.6%);
     cursor: pointer;
-
+    border: none;
+    color: white;
+    transition: 0.3s;
 }
 .hero-resume{
     padding: 25px 75px;
     border-radius: 50px;
     border: 2px solid white;
     cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    transition: 0.3s;
 }
 .hero-connect:hover{
     border: 2px solid white;
+    transform: scale(1.05);
 }
 .hero-resume:hover{
     border-color: #B415FF;
+    transform: scale(1.05);
 }
-@media (max-width:768px) {
+
+/* Tablet screens (769px - 1024px) */
+@media (max-width:1024px) {
+    .hero{
+        gap: 30px;
+    }
     .hero img{
         margin-top: 120px;
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
+        width: 220px;
+        height: 220px;
     }
     .hero h1{
-        margin-top: 50px;
-        width: 90%;
-        font-size: 50px;
+        width: 80%;
+        font-size: 70px;
     }
     .hero p{
-        width: 60%;
+        width: 70%;
+        font-size: 22px;
+    }
+}
+
+/* Tablet and mobile screens (max 768px) */
+@media (max-width:768px) {
+    .hero{
+        gap: 25px;
+        padding: 0 15px;
+    }
+    .hero img{
+        margin-top: 100px;
+        width: 180px;
+        height: 180px;
+    }
+    .hero h1{
+        margin-top: 30px;
+        width: 90%;
+        font-size: 48px;
+    }
+    .hero p{
+        width: 85%;
         font-size: 18px;
-        line-height: 32px;
+        line-height: 30px;
         margin: 10px 0px;
     }
     .hero-action{
-        gap: 16px;
+        gap: 15px;
         font-size: 18px;
         font-weight: 500;
         margin-bottom: 50px;
     }
     .hero-connect{
-        padding: 20px 30px;
+        padding: 18px 30px;
         border-radius: 40px;
+        font-size: 16px;
+        text-align: center;
     }
     .hero-resume{
-        padding: 20px 50px;
+        padding: 18px 40px;
         border-radius: 40px;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+/* Mobile screens (max 480px) */
+@media (max-width:480px) {
+    .hero{
+        gap: 20px;
+        padding: 0 10px;
+        margin-top: 20px;
+    }
+    .hero img{
+        margin-top: 60px;
+        width: 150px;
+        height: 150px;
+    }
+    .hero h1{
+        margin-top: 20px;
+        width: 100%;
+        font-size: 36px;
+        line-height: 1.2;
+    }
+    .hero p{
+        width: 95%;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .hero-action{
+        flex-direction: column;
+        gap: 12px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .hero-connect{
+        padding: 15px 30px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .hero-resume{
+        padding: 15px 30px;
+        font-size: 14px;
+        width: 100%;
     }
 }
