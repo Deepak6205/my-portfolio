@@ -4,7 +4,7 @@ import side_profile from "../../assets/side_profile.png";
 
 const Hero = () => {
   const resumeLink =
-    "https://drive.google.com/file/d/152RIfI62iZ5GNt0r-hKHQ0JgQ10VsAhM/view?usp=drive_link"; // Replace with your shareable link
+    "https://drive.google.com/file/d/1mlo7SXVoXNbNDbiCgZmw2WMUbl8iMQVZ/view?usp=drive_link"; 
 
   const openResume = () => {
     window.open(resumeLink, "_blank");
