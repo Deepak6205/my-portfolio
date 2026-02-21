@@ -2,7 +2,7 @@ import project1_img from '../assets/project_1.png'
 import project2_img from '../assets/project_2.png'
 import project3_img from '../assets/project_3.png'
 import project4_img from '../assets/project_4.png'
-import project5_img from '../assets/project_5.svg'
+import project5_img from '../assets/project_5.png'
 import project6_img from '../assets/project_6.svg'
 import project7_img from '../assets/project_4.svg'
 import project8_img from '../assets/project_3.svg'
@@ -36,7 +36,7 @@ const mywork_data = [
     },
     {
         w_no:5,
-        w_name:"Web design",
+        link:"https://netflix-clone-seven-smoky.vercel.app/",
         w_img:project5_img
     },
     {

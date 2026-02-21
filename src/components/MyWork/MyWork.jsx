@@ -14,7 +14,7 @@ const MyWork = () => {
     : mywork_data.slice(0, 6);
 
   const handleToggle = () => {
-    if (!hasMoreThanSix) return; // disable click if <= 6
+    if (!hasMoreThanSix) return; 
     setShowAll(prev => !prev);
   };
 
@@ -39,7 +39,7 @@ const MyWork = () => {
         ))}
       </div>
 
-      {/* Button always visible */}
+      
       <div
         className="mywork-showmore"
         onClick={handleToggle}
