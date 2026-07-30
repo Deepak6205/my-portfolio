@@ -9,15 +9,25 @@ const Services_Data = [
     s_name: "Educator",
     s_desc: "As an educator, I offer courses and guidance on web design, content writing, and social media.",
   },
+  // {
+  //   s_no: "03",
+  //   s_name: "Social media",
+  //   s_desc: "I create engaging social media content, manage posts, and strategies to boost audience engagement.",
+  // },
+  // {
+  //   s_no: "04",
+  //   s_name: "Backend Development",
+  //   s_desc: "Managing databases, authentication, and server-side logic using Node.js .",
+  // },
   {
     s_no: "03",
-    s_name: "Social media",
-    s_desc: "I create engaging social media content, manage posts, and strategies to boost audience engagement.",
+    s_name: "React Development",
+    s_desc: "Building dynamic and interactive single-page applications using React.js and modern JavaScript.",
   },
   {
     s_no: "04",
-    s_name: "Backend Development",
-    s_desc: "Managing databases, authentication, and server-side logic using Node.js .",
+    s_name: "Next.js Development",
+    s_desc: "Developing fast, SEO-friendly, and scalable web applications using Next.js.",
   },
   {
     s_no: "05",

@@ -4,7 +4,7 @@ import side_profile from "../../assets/side_profile.png";
 
 const Hero = () => {
   const resumeLink =
-    "https://drive.google.com/file/d/1mlo7SXVoXNbNDbiCgZmw2WMUbl8iMQVZ/view?usp=drive_link"; 
+    "https://drive.google.com/file/d/1_FKM_qGIeuOPGXz8kz_mdJEznbbsMsxc/view?usp=sharing"; 
 
   const openResume = () => {
     window.open(resumeLink, "_blank");
